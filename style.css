@@ -1,0 +1,117 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5e6ca;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.site-header {
+    background-color: #6b705c;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.site-title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #cb997e;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.hero .btn {
+    background-color: #fff;
+    color: #6b705c;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Search Bar */
+.search-bar {
+    padding: 1rem 0;
+    text-align: center;
+    background-color: #f5e6ca;
+}
+
+#searchInput {
+    width: 80%;
+    max-width: 500px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 200px;
+    background-color: #fff;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h4 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: #6b705c;
+}
+
+.card p {
+    font-weight: bold;
+    color: #cb997e;
+}
+
+/* Footer Styles */
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
